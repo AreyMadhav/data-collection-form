@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="themeStyles" rel="stylesheet" href="css/styles-light.css"> <!-- Default is White Mode -->
+    <title>Data Collection Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Collection Form</h1>
+        <form id="dataForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="rollNumber" placeholder="Roll Number" required>
+            <input type="text" id="university" placeholder="University" required>
+            <button type="submit">Submit</button>
+        </form>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll Number</th>
+                    <th>University</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button id="themeToggle">Toggle Dark Mode</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
